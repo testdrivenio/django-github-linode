@@ -6,7 +6,7 @@ from django.http import JsonResponse
 
 
 def home(request):
-    return JsonResponse({"hello": "linode"})
+    return JsonResponse({"hello": "world"})
 
 
 urlpatterns = [
